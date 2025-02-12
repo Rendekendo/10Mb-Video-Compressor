@@ -1,11 +1,19 @@
-# 10Mb-Video-Compressor
-Compresses videos to size which can be upladed to discord (10Mb)
+# Video Compressor
 
-# Instalation
-```
-pip install -r requirements.txt
-```
-# Use
-- run program
-- select video via file browser
-- compressed video is saved to the same location with added compressed to the end
+This script allows you to compress videos to fit within a target file size while maintaining good quality.
+
+## Requirements
+- Python installed on your system
+- `ffmpeg` installed and added to system PATH
+
+## How to Use
+1. Run the script.
+2. Select a video file using the file dialog.
+3. The compressed video will be saved in the same location as the original file with `_compressed` added to its name.
+
+## Features
+- Automatically calculates target bitrate for compression
+- Downscales video resolution to 720p if necessary
+- Reduces audio bitrate for better compression
+- Uses FFmpeg for high-quality video compression
+
