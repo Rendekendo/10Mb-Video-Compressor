@@ -4,7 +4,7 @@ This script allows you to compress videos to fit within a target file size while
 
 ## Requirements
 - Python installed on your system
-- `ffmpeg` installed and added to system PATH
+- [ffmpeg](https://www.ffmpeg.org/download.html) installed and added to system PATH
 
 ## How to Use
 1. Run the script.
