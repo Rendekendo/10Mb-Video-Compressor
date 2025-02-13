@@ -1,6 +1,6 @@
 # Video Compressor
 
-This script allows you to compress videos to fit within a target file size while maintaining good quality.
+Compresses videos to size which can be upladed to discord (10Mb)
 
 ## Requirements
 - Python installed on your system
